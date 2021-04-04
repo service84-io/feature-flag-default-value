@@ -26,7 +26,7 @@ def s84Name = 'Feature Flag Default Value'
 def s84JarName = 'featureflagdefaultvalue'
 def s84Description = 'An implimentation for the Service84 FeatureFlagAPI that returns the default value'
 def s84GithubBase = 'https://github.com/service84-io/feature-flag-default-value'
-def s84Version = '1.2.0-SNAPSHOT'
+def s84Version = '1.2.0'
 
 // configure all java components to be published
 publishing {
