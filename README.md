@@ -14,6 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ## Usage
+This library is available from Maven Central with more information at
+https://mvnrepository.com/artifact/io.service84.library/featureflagdefaultvalue
+
+### Dependencies
 This library defines a naive implementation for the Service84.IO FeatureFlagAPI that
 simply returns the default value.
 
