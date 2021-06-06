@@ -22,7 +22,10 @@ This library is available from Maven Central with more information at
 https://mvnrepository.com/artifact/io.service84.library/featureflagdefaultvalue
 
 ### Dependencies
-This library has no dependencies.
+This library has a compile-time and run-time dependency on the following libraries,
+versions are (built-tested)
+
+    org.springframework:spring-context:(5.0.0.RELEASE-5.3.3)
 
 ## Build
 This is a Java 11 project that builds best with Gradle 6.3
