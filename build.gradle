@@ -158,7 +158,7 @@ configurations.all {
 dependencies {
   compileOnly 'org.springframework:spring-context:5.0.0.RELEASE'
 
-  api 'io.service84.library:featureflagapi:1.2.0'
+  api 'io.service84.library:featureflagapi:1.3.0-SNAPSHOT'
 
   ////////////////////////////////
   //Test Dependencies/////////////
