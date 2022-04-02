@@ -44,14 +44,32 @@ public class FeatureFlagDefaultValueTests {
   @Autowired private FeatureFlagAPI featureFlagService;
 
   @Test
-  public void defaultFalse() {
+  public void getFlagDefaultFalse() {
     Boolean flag = featureFlagService.getFlag(TestFlag, TestUser, Boolean.FALSE);
     assertFalse(flag);
   }
 
   @Test
-  public void defaultTrue() {
+  public void getFlagDefaultTrue() {
     Boolean flag = featureFlagService.getFlag(TestFlag, TestUser, Boolean.TRUE);
+    assertTrue(flag);
+  }
+
+  @Test
+  public void getValueDefaultFalse() {
+    Boolean flag = featureFlagService.getValue(TestFlag, TestUser, Boolean.FALSE);
+    assertFalse(flag);
+  }
+
+  @Test
+  public void getValueDefaultTrue() {
+    Boolean flag = featureFlagService.getValue(TestFlag, TestUser, Boolean.TRUE);
+    assertTrue(flag);
+  }
+
+  @Test
+  public void getValue() {
+    Boolean flag = featureFlagService.getValue(TestFlag, TestUser);
     assertTrue(flag);
   }
 
