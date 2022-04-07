@@ -43,12 +43,14 @@ public class FeatureFlagDefaultValueTests {
   // Test Subject
   @Autowired private FeatureFlagAPI featureFlagService;
 
+  @SuppressWarnings({"deprecation"})
   @Test
   public void getFlagDefaultFalse() {
     Boolean flag = featureFlagService.getFlag(TestFlag, TestUser, Boolean.FALSE);
     assertFalse(flag);
   }
 
+  @SuppressWarnings({"deprecation"})
   @Test
   public void getFlagDefaultTrue() {
     Boolean flag = featureFlagService.getFlag(TestFlag, TestUser, Boolean.TRUE);
