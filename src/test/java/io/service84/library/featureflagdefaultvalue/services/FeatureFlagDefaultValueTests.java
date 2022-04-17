@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package io.service84.library.featureflag.services;
+package io.service84.library.featureflagdefaultvalue.services;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -25,7 +25,8 @@ import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import io.service84.library.featureflag.services.impl.defaultvalue.FeatureFlagDefaultValue;
+import io.service84.library.featureflag.services.FeatureFlagAPI;
+import io.service84.library.featureflagdefaultvalue.services.FeatureFlagDefaultValue;
 
 @ExtendWith(SpringExtension.class)
 public class FeatureFlagDefaultValueTests {

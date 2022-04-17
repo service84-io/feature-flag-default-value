@@ -1,4 +1,4 @@
-package io.service84.library.featureflag.services.impl.defaultvalue;
+package io.service84.library.featureflagdefaultvalue.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
