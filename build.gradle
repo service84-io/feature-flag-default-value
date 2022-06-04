@@ -186,7 +186,7 @@ dependencies {
 
   compileOnly 'org.slf4j:slf4j-api:1.3.0'
 
-  api 'io.service84.library:featureflagapi:1.3.50-SNAPSHOT'
+  api 'io.service84.library:featureflagapi:1.3.50'
 
   ////////////////////////////////
   //Test Dependencies/////////////
